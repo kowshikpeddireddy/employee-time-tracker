@@ -1,0 +1,37 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #2980b9, #6dd5fa); /* Gradient background */
+        }
+
+        .container {
+            max-width: 400px;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+        .error-message {
+            color: #ff5555;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .success-message {
+            color: #00aa00;
+            text-align: center;
+            margin-bottom: 20px;
+        }
